@@ -11,12 +11,12 @@ Generate HTML for Open Graph integration.
 ## Examples
 __Basic usage__
 ```rust
-use open_graph::{OpenGraph, ContentType};
+use open_graph::{OpenGraph, ObjectType};
 
 let card = OpenGraph::builder()
   .site("@flickr")
   .title("The Rock")
-  .type(ContentType::VideoMovie)
+  .type(ObjectType::VideoMovie)
   .image("http://ia.media-imdb.com/images/rock.jpg")
   .build();
 ```
@@ -48,6 +48,7 @@ look at some of these issues:
 - [Open Graph protocol specification](http://ogp.me/)
 - [Facebook object debugger](https://developers.facebook.com/tools/debug/)
 - [LinkedIn post inspector](https://www.linkedin.com/post-inspector/inspect/)
+- [Facebook webmasters sharing guide](https://developers.facebook.com/docs/sharing/webmasters)
 
 ## License
 [MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)

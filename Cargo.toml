@@ -1,6 +1,6 @@
 [package]
 name = "open-graph"
-version = "1.0.0"
+version = "0.0.0"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/rust-net-web/open-graph"
 documentation = "https://docs.rs/open-graph"
@@ -13,5 +13,6 @@ edition = "2018"
 
 [dependencies]
 failure = "0.1.5"
+url = "1.7.2"
 
 [dev-dependencies]
